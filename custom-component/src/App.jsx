@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Toggle from "./components/toggle/Toggle.jsx";
+import Modal from "./components/toggle/Modal.jsx";
 
 const App = () => {
   return (
@@ -10,6 +11,12 @@ const App = () => {
         <Title>Toggle</Title>
         <div>
           <Toggle />
+        </div>
+      </Box>
+      <Box>
+        <Title>Modal</Title>
+        <div>
+          <Modal />
         </div>
       </Box>
     </>
