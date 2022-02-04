@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Toggle from "./components/toggle/Toggle.jsx";
 import Modal from "./components/toggle/Modal.jsx";
-
+import Tab from "./components/toggle/Tab.jsx";
 const App = () => {
   return (
     <>
@@ -18,6 +18,10 @@ const App = () => {
         <div>
           <Modal />
         </div>
+      </Box>
+      <Box>
+        <Title>Tap</Title>
+        <Tab />
       </Box>
     </>
   );
