@@ -20,7 +20,7 @@ const App = () => {
         </div>
       </Box>
       <Box>
-        <Title>Tap</Title>
+        <Title>Tab</Title>
         <Tab />
       </Box>
     </>
