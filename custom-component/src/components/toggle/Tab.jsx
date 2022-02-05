@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
 
+//useTabs커스텀훅 사용하기
 const tabs = [
   { title: "tab1", content: "Tab menu ONE", isActive: false },
   { title: "tab2", content: "Tab menu TWO", isActive: false },
@@ -71,16 +72,11 @@ const ContentBox = styled.div`
 
 const Item = styled.li`
   flex-grow: 1;
-
   color: #9e9e9e;
-
   display: flex;
   align-items: center;
-
   padding-left: 10px;
-
   transition: all 200ms ease-in;
-
   ${({ isActive }) =>
     isActive &&
     css`
