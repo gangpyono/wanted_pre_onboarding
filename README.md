@@ -69,3 +69,14 @@
     - 커스텀훅을 사용함으로써 재사용성을 높힘.(최초 인덱스와 배열만 인자로 관리.)
   - 2. 선택된 인덱스를 관리하는 currentIdx 설정.
     - 이 currentIdx를 Tab컴포넌트 안에서 직접 관리함으로써 배열에 직접접근하여 해당하는 content를 보여준다.
+
+
+
+
+# 구현과제 링크
+- https://gangpyono.github.io/wanted_pre_onboarding/
+- local에서 동작방법
+  ```
+  yarn install
+  yarn start
+  ```
